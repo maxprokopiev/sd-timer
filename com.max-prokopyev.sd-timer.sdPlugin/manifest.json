@@ -1,0 +1,50 @@
+{
+	"Name": "sd-timer",
+	"Version": "0.1.0.0",
+	"Author": "Max Prokopyev",
+	"Actions": [
+		{
+			"Name": "SD+ Timer",
+			"UUID": "com.max-prokopyev.sd-timer.timer",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Allows to set a timer for StreamDeck+",
+			"PropertyInspectorPath": "ui/sd-timer.html",
+			"Controllers": [
+				"Keypad", "Encoder"
+			],
+			"Encoder": {
+                                "layout": "custom-layout.json"
+                        },
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "sd-timer",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Timer for StreamDeck+",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.15"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.max-prokopyev.sd-timer"
+}

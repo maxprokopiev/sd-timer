@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schemas.elgato.com/streamdeck/plugins/layout.json",
+    "id": "$TESTING",
+    "items": [
+        {
+            "key": "value",
+            "type": "text",
+            "rect": [5, 5, 168, 60],
+            "font": { "size": 59, "weight": 600 },
+            "alignment": "right"
+        },
+        {
+            "key": "indicator",
+            "type": "bar",
+            "rect": [5, 74, 168, 12],
+            "value": 0,
+            "subtype": 4,
+            "border_w": 0
+        }
+    ]
+}
