@@ -1,6 +1,7 @@
 {
     "scripts": {
         "build": "rollup -c",
+        "test": "vitest run",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.max-prokopyev.sd-timer\""
     },
     "type": "module",
@@ -14,7 +15,8 @@
         "@types/node": "~20.15.0",
         "rollup": "^4.0.2",
         "tslib": "^2.6.2",
-        "typescript": "^5.2.2"
+        "typescript": "^5.2.2",
+        "vitest": "^4.1.2"
     },
     "dependencies": {
         "@elgato/streamdeck": "^1.0.0"
